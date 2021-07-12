@@ -1,25 +1,5 @@
 @charset "UTF-8";
 
-:root{
-    --fonte: Roboto;
-    --cor01: red;
-    --cor02: black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
-
-*{
-    margin: 0;
-    padding: 0;
-}
-header > h1:nth-last-child(1n){
-    font-family: var(--fonte);
-}
-ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-}
-li{
-    margin: 10px;
-    padding-bottom: 10px;
-}
