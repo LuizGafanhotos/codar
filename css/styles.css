@@ -69,6 +69,7 @@ span{
     background-image: url("../assets/video_call.png") center no-repeat;
 }
 .container2{
+    margin-top: 20rem;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -88,5 +89,6 @@ span{
     content: "✓ ";
 }
 #img{
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-top: 20px;
 }
