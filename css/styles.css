@@ -152,3 +152,20 @@ span{
     background-color: #a50e0e;
     cursor: pointer;
 }
+.boxer{
+    display: flex;
+}
+.box{
+    width: 395px;
+    height: 132px;
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 2rem;
+}
+.circulo{
+    float: left;
+    width: 60px;
+    height: 60px;
+    background-color: var(--cor01);
+    border-radius: 100px;
+}
