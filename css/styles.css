@@ -65,6 +65,13 @@ span{
     color: var(--cor03);
 
 }
+.container > div > button:hover{
+    transition-property: background-color;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+    background-color: #a50e0e;
+    cursor: pointer;
+}
 .container .bg-container{
     background-image: url("../assets/video_call.png") center no-repeat;
 }
@@ -87,6 +94,23 @@ span{
     color: white;
     clip-path: circle();
     content: "✓ ";
+}
+#Login{
+    background-color: var(--cor01);
+    color: var(--cor03);
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    border-radius: 9px;
+    margin-bottom: 5px;
+}
+#Login:hover{
+    transition-property: background-color;
+    transition-duration: 400ms;
+    transition-timing-function: ease;
+    background-color: #a50e0e;
+    cursor: pointer;
 }
 #img{
     margin-left: 200px;
