@@ -27,6 +27,7 @@ span{
     color: var(--cor02);
 }
 #nav{
+    font-family: var(--fonte);
     display: flex;
     
 }
@@ -36,11 +37,33 @@ span{
     list-style-type: none;
 }
 .container{
+    font-family: var(--fonte);
     display:flex;
     justify-content: center; 
     align-items: flex-start;
+    align-items: center;
+}
+.container > div > h1{
+    margin-left: 40px;
+    font-size: 3em;
+    color: var(--cor01);
+}
+.container > div > p{
+    margin-left: 40px;
+}
+.container > div > button{
+    margin-left: 40px;
 }
 .container .bg-container{
     background-image: url("../assets/video_call.png") center no-repeat;
-    
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#lista_perl{
+    font-family: var(--fonte);
+    font-size: 1.4em;
+    margin-top: 91px;
 }
