@@ -50,6 +50,7 @@ span{
     color: var(--cor01);
 }
 .container > div > p{
+    font-size: 19px;
     margin-left: 40px;
 }
 .container > div > button{
@@ -76,4 +77,16 @@ span{
     font-family: var(--fonte);
     font-size: 1.4em;
     margin-top: 91px;
+}
+#lista_perl > ul{
+    list-style: none;
+}
+#lista_perl > ul > li::before{
+    background-color: var(--cor01);
+    color: white;
+    clip-path: circle();
+    content: "✓ ";
+}
+#img{
+    margin-left: 100px;
 }
