@@ -9,8 +9,9 @@
 }
 :root{
     --fonte: 'Roboto Slab';
-    --cor01: red;
+    --cor01: #e20707;
     --cor02: black;
+    --cor03: white;
 }
 header{
     display: flex;
@@ -32,7 +33,7 @@ span{
     
 }
 #nav > ul{
-    gap: 10px;
+    gap: 20px;
     display: flex;
     list-style-type: none;
 }
@@ -52,7 +53,16 @@ span{
     margin-left: 40px;
 }
 .container > div > button{
+    font-size: 2em;
+    border-radius: 10px;
+    padding-left: 42px;
+    padding-right: 42px;
+    margin-top: 30px;
     margin-left: 40px;
+    border-style: none;
+    background-color: var(--cor01);
+    color: var(--cor03);
+
 }
 .container .bg-container{
     background-image: url("../assets/video_call.png") center no-repeat;
