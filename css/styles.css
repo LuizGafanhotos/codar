@@ -80,6 +80,7 @@ span{
     /* display: flex; */
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 20%;
 }
 #lista_perl{
     font-family: var(--fonte);
@@ -154,13 +155,16 @@ span{
 }
 .boxer{
     display: flex;
+    margin: auto;
+    transform: translateX(10%)
 }
 .box{
     width: 395px;
-    height: 132px;
+    height: 70px;
     background-color: lightgrey;
     margin: 20px;
     padding: 2rem;
+    border-radius: 20px;
 }
 .circulo{
     float: left;
@@ -168,4 +172,18 @@ span{
     height: 60px;
     background-color: var(--cor01);
     border-radius: 100px;
+}
+.text2{
+    margin-left: 5em;
+}
+.text1{
+    margin-top: -10px;
+    margin-left: 79px;
+}
+footer{
+    background-color: var(--cor02);
+    color: var(--cor03);
+}
+.rodapé{
+    display: flex;
 }
