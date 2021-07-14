@@ -180,10 +180,3 @@ span{
     margin-top: -10px;
     margin-left: 79px;
 }
-footer{
-    background-color: var(--cor02);
-    color: var(--cor03);
-}
-.rodapé{
-    display: flex;
-}
