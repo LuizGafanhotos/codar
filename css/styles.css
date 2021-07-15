@@ -92,7 +92,7 @@ span{
 #lista_perl > ul{
     list-style: none;
     list-style-image: url(../assets/certificado.png);
-    padding-left: 63px;
+    padding-left: 63px; 
 }
 #Login{
     background-color: var(--cor01);
