@@ -56,9 +56,10 @@ span{
 .container > div > button{
     font-size: 2em;
     border-radius: 10px;
-    padding-left: 17px;
-    padding-right: 13px;
-    padding: 20px;
+    padding-left: 30px;
+    padding-right: 32px;
+    padding-top: 9px;
+    padding-bottom: 9px;
     margin-top: 30px;
     margin-left: 40px;
     border-style: none;
@@ -91,11 +92,7 @@ span{
 #lista_perl > ul{
     list-style: none;
     list-style-image: url(../assets/certificado.png);
-    padding-left: 0;
-}   
-#Regulator{
-    position: absolute;
-    top: 100%;
+    padding-left: 63px;
 }
 #Login{
     background-color: var(--cor01);
@@ -158,6 +155,8 @@ span{
     display: flex;
     margin: auto;
     justify-content: center;
+    margin-bottom: 116px;
+    vertical-align: top;
 }
 .box{
     width: 395px;
@@ -180,4 +179,14 @@ span{
 .text1{
     margin-top: -10px;
     margin-left: 79px;
+}
+footer{
+    background-color: var(--cor02);
+    color: var(--cor03);
+}
+.rodapé{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    gap: 50px;
+    padding: 10%;
 }
