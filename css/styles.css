@@ -89,12 +89,12 @@ span{
 }
 #lista_perl > ul{
     list-style: none;
-}
-#lista_perl > ul > li::before{
-    background-color: var(--cor01);
-    color: white;
-    clip-path: circle();
-    content: "✓ ";
+    list-style-image: url(../assets/certificado.png);
+    padding-left: 0;
+}   
+#Regulator{
+    position: absolute;
+    top: 100%;
 }
 #Login{
     background-color: var(--cor01);
@@ -156,7 +156,7 @@ span{
 .boxer{
     display: flex;
     margin: auto;
-    transform: translateX(10%)
+    justify-content: center;
 }
 .box{
     width: 395px;
