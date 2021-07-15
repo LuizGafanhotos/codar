@@ -16,8 +16,8 @@
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;  
-    padding: 0 10px;
+    justify-content: space-between;
+    padding: 5px 20px;
 }
 header > h1:first-child{
     font-family: var(--fonte);
@@ -30,12 +30,16 @@ span{
 #nav{
     font-family: var(--fonte);
     display: flex;
-    
+    align-items: center;
+    margin-left: auto;
 }
 #nav > ul{
     gap: 20px;
     display: flex;
     list-style-type: none;
+}
+.navli li {
+    line-height: 10px;
 }
 .container{
     font-family: var(--fonte);
@@ -56,14 +60,13 @@ span{
 .container > div > button{
     font-size: 2em;
     border-radius: 10px;
-    padding-left: 42px;
-    padding-right: 42px;
+    padding-left: 35px;
+    padding-right: 40px;
     margin-top: 30px;
     margin-left: 40px;
     border-style: none;
     background-color: var(--cor01);
     color: var(--cor03);
-
 }
 .container > div > button:hover{
     transition-property: background-color;
@@ -76,7 +79,7 @@ span{
     background-image: url("../assets/video_call.png") center no-repeat;
 }
 .container2{
-    margin-top: 20rem;
+    margin-top: 10rem;
     /* display: flex; */
     justify-content: center;
     align-items: flex-start;
@@ -84,7 +87,7 @@ span{
 #lista_perl{
     font-family: var(--fonte);
     font-size: 1.4em;
-    margin-top: 91px;
+    margin-top: 90px;
 }
 #lista_perl > ul{
     list-style: none;
@@ -92,8 +95,10 @@ span{
 #lista_perl > ul > li::before{
     background-color: var(--cor01);
     color: white;
-    clip-path: circle();
+    clip-path: circle(at 50% 50%);
     content: "✓ ";
+    margin-right: 10px;
+    vertical-align: top;
 }
 #Login{
     background-color: var(--cor01);
@@ -104,6 +109,7 @@ span{
     padding-bottom: 9px;
     border-radius: 9px;
     margin-bottom: 5px;
+    margin-left: 15px;
 }
 #Login:hover{
     transition-property: background-color;
@@ -113,8 +119,8 @@ span{
     cursor: pointer;
 }
 #img{
-    margin-left: 200px;
-    margin-top: 20px;
+    position: relative;
+    top: -6rem;
 }
 #base{
     display: flex;
@@ -123,7 +129,7 @@ span{
     justify-content: center;
 }
 #tel_liga{
-    margin-top: 66px;
+    margin-top: 3rem;
 }
 #tel_liga > p{
     text-decoration: bolder;
